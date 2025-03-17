@@ -3,20 +3,20 @@ import React from 'react';
 const FooterNav = () => {
   return (
     <div>
-      <footer className='p-20'>
+      <footer className='lg:p-20'>
         <img src="/logo.png" alt="" />
         <div>
           <p>Products</p>
-          <div className='flex text-[#686764] w-[45%] justify-between'>
+          <div className='lg:flex lg:my-0 my-4 text-[#686764] lg:w-[45%] justify-between'>
             <p>Hackathons</p>
             <p>Become A Community Partner</p>
             <p>Sponsor Us</p>
           </div>
         </div>
       </footer>
-      <div className='border-t border-[#CEC9C0] flex justify-between px-20 py-4'>
+      <div className='border-t border-[#CEC9C0] lg:flex justify-between lg:px-20 py-4'>
         <p className='text-[#686764]'>2025 Ethereum Nigeria. All rights reserved.</p>
-        <div className='flex justify-between w-[15%]'>
+        <div className='flex justify-between lg:w-[15%] lg:mt-0 mt-4'>
           <img className='w-6 h-6' src="/images/icons/basil_instagram-solid.png" alt="" />
           <img className='w-6 h-6' src="/images/icons/mdi_github.png" alt="" />
           <img className='w-6 h-6' src="/images/icons/mingcute_linkedin-fill.png" alt="" />
