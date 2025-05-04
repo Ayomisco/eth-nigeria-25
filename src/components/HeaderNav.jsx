@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router';
 // import { Menu, X } from 'lucide-react';
 
 const HeaderNav = () => {
@@ -8,10 +9,14 @@ const HeaderNav = () => {
     <header className="flex justify-between items-center py-4">
       {/* Logo & Nav */}
       <div className="flex items-center gap-4">
-        <img src="/logo.png" alt="Logo" className="lg:h-full h-10" />
+        <Link to={'/'}>
+          <img src="/logo.png" alt="Logo" className="lg:h-full h-10" />
+        </Link>
         <nav className="hidden md:flex gap-6">
           <p className="cursor-pointer">Become a Sponsor</p>
           <p className="cursor-pointer">Partners</p>
+          <p className="cursor-pointer"><Link to={'/10th-aniversary'}>10th Aniversary</Link></p>
+
         </nav>
       </div>
 
@@ -33,6 +38,8 @@ const HeaderNav = () => {
         <div className="absolute top-16 left-0 w-full bg-[#FFFCE2] shadow-md flex flex-col items-center p-4 md:hidden">
           <p className="py-2 cursor-pointer">Become a Sponsor</p>
           <p className="py-2 cursor-pointer">Partners</p>
+          <p className="py-2 cursor-pointer"><Link to={'/10th-aniversary'}>10th Aniversary</Link></p>
+
           <button className="mt-4 p-4 w-full rounded-sm bg-gradient-to-r from-[#1C7231] to-[#35D85D] border border-[#3C9B3E] text-white">
             Register For The Event
           </button>

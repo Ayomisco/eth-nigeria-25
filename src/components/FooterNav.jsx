@@ -3,7 +3,7 @@ import React from 'react';
 const FooterNav = () => {
   return (
     <div>
-      <footer className='lg:p-20'>
+      <footer className='lg:p-20 lg:mt-0 mt-10'>
         <img src="/logo.png" alt="" />
         <div>
           <p>Products</p>

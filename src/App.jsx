@@ -162,13 +162,13 @@ function App() {
         <div>
           <h3 className="lg:text-3xl text-2xl text-center font-bold mb-4">Our Sponsors</h3>
           <div className="flex justify-between flex-wrap lg:w-[95%] mx-auto">
-            {[1, 2, 3, 4, 5, 6].map((index) => <img className="mx-auto lg:my-0 my-2" src={`/images/sponsors/image-${index}.png`} alt="" />)}
+            {[1, 2, 3, 4, 5, 6].map((index) => <img className="mx-auto lg:w-auto w-[40%] my-auto lg:my-0 my-2" src={`/images/sponsors/image-${index}.png`} alt="" />)}
           </div>
         </div>
         <div className="mt-16">
           <h3 className="lg:text-3xl text-2xl text-center font-bold mb-4">Our Community Partners</h3>
           <div className="flex flex-wrap justify-between lg:w-[70%] mx-auto">
-            {[1, 2, 3, 4, 5, 6].map((index) => <img src={`/images/communities/image-${index}.png`} alt="" />)}
+            {[1, 2, 3, 4, 5, 6].map((index) => <img className="my-auto mx-auto" src={`/images/communities/image-${index}.png`} alt="" />)}
           </div>
         </div>
       </section>
